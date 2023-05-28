@@ -14,15 +14,16 @@ nix-env -iA \
 	nixpkgs.neovim \
 	nixpkgs.zellij \
 	nixpkgs.stow \
-	nixpkgs.bat
+	nixpkgs.bat \
+	nixpkgs.jetbrains-mono
 
 # stow packages
-
 stow alacritty
 stow git
 stow nvim
 stow zsh
 stow zellij
+stow fonts
 
 # add zsh to valid login shells
 command -v zsh | sudo tee -a /etc/shells
