@@ -14,8 +14,7 @@ nix-env -iA \
 	nixpkgs.neovim \
 	nixpkgs.zellij \
 	nixpkgs.stow \
-	nixpkgs.bat \
-	nixpkgs.jetbrains-mono
+	nixpkgs.bat
 
 # stow packages
 stow alacritty
