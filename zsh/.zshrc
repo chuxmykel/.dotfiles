@@ -7,6 +7,7 @@ source ${HOME}/.zsh_plugins.sh
 # aliases
 alias vim="nvim"
 alias cat="bat"
+alias ls="ls -ahl"
 
 # DIRCOLORS (MacOS)
 export CLICOLOR=1
