@@ -4,7 +4,8 @@ A repository to track changes in my dotfiles.
 
 # Installation
 
-First you need to make the installation script `./install.sh` executable.
+First you need to make the installation script executable.
+
 ```bash
 chmod +x ./install.sh
 ```
