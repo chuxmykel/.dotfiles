@@ -8,19 +8,21 @@ source /etc/bashrc
 
 # install packages
 nix-env -iA \
-	nixpkgs.zsh \
-	nixpkgs.antibody \
 	nixpkgs.git \
+	nixpkgs.zsh \
+	nixpkgs.alacritty \
+	nixpkgs.antibody \
 	nixpkgs.neovim \
 	nixpkgs.zellij \
 	nixpkgs.stow \
-	nixpkgs.bat
+	nixpkgs.bat \
+	nixpkgs.ripgrep
 
 # stow packages
-stow alacritty
 stow git
-stow nvim
 stow zsh
+stow alacritty
+stow nvim
 stow zellij
 stow fonts
 
