@@ -16,7 +16,8 @@ nix-env -iA \
 	nixpkgs.zellij \
 	nixpkgs.stow \
 	nixpkgs.bat \
-	nixpkgs.ripgrep
+	nixpkgs.ripgrep \
+	nixpkgs.fd
 
 # stow packages
 stow git
