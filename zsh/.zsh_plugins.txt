@@ -1,8 +1,8 @@
 lukechilds/zsh-nvm
 
+robbyrussell/oh-my-zsh path:plugins/git
 robbyrussell/oh-my-zsh path:plugins/colored-man-pages
 robbyrussell/oh-my-zsh path:plugins/command-not-found
-robbyrussell/oh-my-zsh path:plugins/git
 robbyrussell/oh-my-zsh path:plugins/aliases
 
 romkatv/powerlevel10k
