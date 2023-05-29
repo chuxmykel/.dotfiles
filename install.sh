@@ -10,7 +10,6 @@ source /etc/bashrc
 nix-env -iA \
 	nixpkgs.git \
 	nixpkgs.zsh \
-	nixpkgs.alacritty \
 	nixpkgs.antibody \
 	nixpkgs.neovim \
 	nixpkgs.zellij \
@@ -18,6 +17,7 @@ nix-env -iA \
 	nixpkgs.bat \
 	nixpkgs.ripgrep \
 	nixpkgs.fd
+# nixpkgs.alacritty \  # FIXME: commented out because nix installs it in a weird way.
 
 # stow packages
 stow git
