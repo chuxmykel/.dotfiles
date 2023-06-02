@@ -1,7 +1,7 @@
 # aliases
 alias vim="nvim"
 alias cat="bat"
-alias ls="ls -ahl"
+alias ls="ls -Gahl"
 
 # config open
 alias cfgo="nvim ${DOTFILES_DIR}"
