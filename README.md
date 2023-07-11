@@ -1,3 +1,5 @@
+# ⚠️ Install script not ready. Do not run ⚠️
+You can install the packages you need manually and steal my config. 😜
 # .dotfiles
 A repository to track changes in my dotfiles.
 
